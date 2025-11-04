@@ -13,7 +13,7 @@ func main() {
 	router.LoadHTMLGlob("templates/*")
 
 	// កំណត់ Route សម្រាប់ "/" (ទំព័រដើម)
-	router.GET("/", func(c *gin.Context) {
+	router.GET("http://192.168.1.0", func(c *gin.Context) {
 		// ឆ្លើយតបដោយ Render ឯកសារ HTML ឈ្មោះ "index.html"
 		// ហើយបញ្ចូលទិន្នន័យ (Data) ទៅក្នុង HTML នោះ
 		c.HTML(http.StatusOK, "index.html", gin.H{
