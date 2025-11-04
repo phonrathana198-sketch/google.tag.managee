@@ -19,7 +19,7 @@ func main() {
 		c.HTML(http.StatusOK, "index.html", gin.H{
 			"title":   "Go & Gin Web Demo",
 			"framework": "Gin",
-			"name":    "Gemini User",
+			"name":    "service ai Gemini User",
 			"date":    time.Now().Format("2025-10-15T20:44:12Z"), // បង្ហាញកាលបរិច្ឆេទបច្ចុប្បន្ន
 		})
 	})
