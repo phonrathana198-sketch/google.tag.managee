@@ -16,7 +16,7 @@ func main() {
 	router.GET("http://192.168.1.0", func(c *gin.Context) {
 		// ឆ្លើយតបដោយ Render ឯកសារ HTML ឈ្មោះ "index.html"
 		// ហើយបញ្ចូលទិន្នន័យ (Data) ទៅក្នុង HTML នោះ
-		c.HTML(http.StatusOK, "index.html", gin.H{
+		c.HTML(http.StatusOK,request "https://$host$request_uri;443/index.html", gin.H{
 			"title":   "Go & Gin Web Demo",
 			"framework": "Gin",
 			"name":    "service ai Gemini User",
