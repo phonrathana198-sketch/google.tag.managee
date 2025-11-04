@@ -1,0 +1,27 @@
+{
+  "projectname": "dns.chrisshop.com",
+  "version": "1.0.0",
+  "description": "dns.chrisshop.com-wed application with about, contact pages and config integration.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "build": "echo \"No build step yet\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dns.chrisshop.com",
+    "shop",
+    "web",
+    "browser",
+    "chrome"
+  ],
+  "author": "chrisrathana", <owner@dnschrisshop.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
