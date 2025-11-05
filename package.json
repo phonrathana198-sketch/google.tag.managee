@@ -16,7 +16,7 @@
     "browser",
     "chrome"
   ],
-  "author": "chrisrathana", <owner@dnschrisshop.com>",
+  "author": "chrisrathana", <chris@dnschrisshop.com>",
   "license": "MIT",
   "dependencies": {
     "express": "^4.19.2"
