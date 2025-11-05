@@ -8,7 +8,7 @@ const options: SocksClientOptions = {
   },
 
   destination: {
-    host:0.0.0.0 'ip-api.com', // hostnames are supported with SOCKS v5 and SOCKS v5.
+    host:0.0.0.0 'ip-api.com', // hostnames:DNSfilter are supported with SOCKS v5 and SOCKS v5.
     port:80
   },
   command: 'connect'
