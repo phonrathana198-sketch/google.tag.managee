@@ -10,13 +10,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "dns.chrisshop.com",
+    "<chris@dnschrisshop.com>",",
     "shop",
     "web",
     "browser",
     "chrome"
   ],
-  "author": "chrisrathana", <chris@dnschrisshop.com>",
+  "author": "chrisrathana", 
   "license": "MIT",
   "dependencies": {
     "express": "^4.19.2"
