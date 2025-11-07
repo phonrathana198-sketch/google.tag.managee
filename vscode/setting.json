@@ -1,0 +1,18 @@
+{
+	"options" :	"json=omitempty",
+	"promptForTags" :	false,
+	"tags" :	"json",
+	"template" :	"false",
+	"transform" :	"snakecase",
+}
+
+1/Default.json
+{
+	"coveredBorderColor" :	"rgba(64,128,128,0.5)",
+	"coveredGutterStyle" :	"blockblue",
+	"coveredHighlightColor" :	"rgba(64,128,128,0.5)",
+	"type":	"highlight",
+	"uncoveredBorderColor" :	"rgba(128,64,64,0.25)",
+	"uncoveredGutterStyle" :	"slashyellow",
+	"uncoveredHighlightColor" :	"rgba(128,64,64,0.25)",
+}
