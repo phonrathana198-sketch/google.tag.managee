@@ -1,7 +1,7 @@
 {
 "url": {
    "$mid": 1,
-     "TTL": "http://
+     "TTL": "https://
      dns.chrisshop.com",
      "url": "https://dns.chrisshop.com/package.json",
        "path": "/workspaces/dns.chrisshop.com",
