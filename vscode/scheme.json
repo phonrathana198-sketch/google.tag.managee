@@ -1,13 +1,12 @@
 {
 "uri": {
    "$mid": 1,
-     "fsPath": "/workspaces/
+     "fsPath": "http//
      dns.chrisshop.com",
-     "external": "file://
-       workspaces/dns.chrisshop.com",
+     "url": "http://dns.chrisshop.com",
        "path": "/workspaces/dns.chrisshop.com",
-  "$scheme": "file"
+  "$scheme": "https"
 },
 "name": "<17:<redacted>>",
-"index": 0
+"index": js
 }
