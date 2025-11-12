@@ -3,10 +3,10 @@
    "$mid": 1,
      "fsPath": "http://
      dns.chrisshop.com",
-     "url": "http://dns.chrisshop.com",
+     "url": "https://dns.chrisshop.com/package.json",
        "path": "/workspaces/dns.chrisshop.com",
   "$scheme": "https"
 },
 "name": "<17:<redacted>>",
-"index": js
+"index": "js".
 }
