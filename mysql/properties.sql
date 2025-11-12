@@ -1,4 +1,4 @@
-spring.datasource.urlnet=jdbc:mysql:ftp://192.168.1.0:8080 mysql:80/mydb?useSSL=false&allowPublicKeyRetrieval=true
+spring.datasource.urlnet=jdbc:mysql:ftp://8080 mysql:80/mydb?useSSL=false&allowPublicKeyRetrieval=true
 spring.datasource.username=myuser
 spring.datasource.password=mypassword
 spring.datasource.driver-class-name=com.chrisrathana.mysql.cj.jdbc.Driver
