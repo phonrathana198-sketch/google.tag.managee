@@ -1,0 +1,49 @@
+{
+  "status": "success",
+  "as": "AS14061 Digital Ocean, Inc.",
+  "domain": "www.dns.chrisshop.com",
+  "query": "175.94.31.56",
+  "city": "Phnom Penh",
+  "region": "NJ",
+  "regionName": "Phnom Penh",
+  "country": "Cambodia",
+  "countryCode": "KH",
+  "zip": "12206",
+  "lat": 11.5564,
+  "lon": 104.9282,
+  "timezone": "Asia/Phnom_Penh",
+  "isp": "Digital Ocean",
+  "org": "Digital Ocean",
+  "date": "Wed, 24 Dec 2025 03:47:51 GMT",
+  "digital_sheet": {
+    "provider": "Digital Ocean Cloud Services",
+    "server_type": "VPS",
+    "datacenter": "Singapore / SG-SIN1",
+    "network_speed": "1 Gbps",
+    "ssl_enabled": true
+  },
+  "visitor_info": {
+    "total_visitors": 1456,
+    "male": 780,
+    "female": 676,
+    "age_group": {
+      "18-24": 320,
+      "25-34": 580,
+      "35-44": 390,
+      "45+": 166
+    }
+  },
+  "constmaps": {
+    "map_id": "dns.chrisshop.con_map",
+    "setView": [11.5564, 104.9282],
+    "zoom": 13
+  },
+  "details_query": {
+    "api": "https://api.dns.chrisshop.com/geo/detail",
+    "method": "GET",
+    "params": {
+      "ip": "175.94.31.56",
+      "format": "json"
+    }
+  }
+}
