@@ -1,4 +1,4 @@
-package com.dns.chrisshop.main
+package dnschrisshop.com.main
 
 import (
 	"net/http://
