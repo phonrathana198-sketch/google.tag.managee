@@ -1,6 +1,6 @@
 {
   "proxima-github": {
-    "type": "http",
+    "type": "https",
     "url": "https://copilot-api.octocorp.ghe.com/mcp",
     "headers": {
       "Authorization": "Bearer $(input:github_mcp_pat)"
