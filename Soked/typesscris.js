@@ -25,7 +25,7 @@ async function connectViaSocks() {
     console.log('តភ្ជាប់ជោគជ័យ!');
 
     // ឧទាហរណ៍: ផ្ញើ HTTP request សាមញ្ញ
-    socket.write('GET / HTTP/1.1\r\nHost: www.dns.chrisshop.com\r\n\r\n');
+    socket.write('GET / HTTPS/1.1\r\nHost: www.dns.chrisshop.com\r\n\r\n');
     socket.on('data', (data) => {
       console.log('ទទួលបានទិន្នន័យ:', data.toString());
     });
