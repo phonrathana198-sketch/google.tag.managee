@@ -11,7 +11,7 @@ const options: SocksClientOptions = {
   },
   destination: {
     host: 'www.dns.chrisshop.com',  // គោលដៅ (remote host)
-    port: 80                  // Port នៃគោលដៅ (ឧ. 80 សម្រាប់ HTTP)
+    port: 80                  // Port នៃគោលដៅ (ឧ. 80 សម្រាប់ HTTPS)
   },
   command: 'connect',  // Command: 'connect', 'bind', ឬ 'associate'
   timeout: 5000,       // ជាជម្រើស: Timeout នៅក្នុង milliseconds (5000 = 5 វិនាទី)
