@@ -1,4 +1,4 @@
--- com.dns.chrisshop partitioning in MySQL
+-- www.dns.chrisshop.com partitioning in MySQL
 PARTITION BY RANGE (YEAR(created_at)) (
     PARTITION p0 VALUES LESS THAN (2024),
     PARTITION p1 VALUES LESS THAN (2025),
