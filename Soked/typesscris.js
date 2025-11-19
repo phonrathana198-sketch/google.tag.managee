@@ -4,7 +4,7 @@ import { SocksClient, SocksClientOptions } from 'socks';
 const options: SocksClientOptions = {
   proxy: {
     host: '192.168.1.1000',  // IP នៃ SOCKS proxy server (ឧ. localhost ឬ IP ផ្សេង)
-    port: 1080,         // Port នៃ proxy (ឧ. 1080 សម្រាប់ SOCKS5)
+    port: 443,         // Port នៃ proxy (ឧ. 1080 សម្រាប់ SOCKS5)
     type: 5,            // ប្រភេទ: 4 (SOCKS4), 5 (SOCKS5)
     userId: 'username', // ជាជម្រើស: បើ proxy ត្រូវការ authentication
     password: 'password' // ជាជម្រើស: សម្រាប់ SOCKS5
