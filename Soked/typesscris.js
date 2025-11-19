@@ -3,7 +3,7 @@ import { SocksClient, SocksClientOptions } from 'socks';
 // កូដដែលត្រូវបានកែតម្រូវ - បន្ថែមវាលចាំបាច់សម្រាប់ SOCKS proxy
 const options: SocksClientOptions = {
   proxy: {
-    host: '192.168.1.1000',  // IP នៃ SOCKS proxy server (ឧ. localhost ឬ IP ផ្សេង)
+    host: '192.168.1.100',  // IP នៃ SOCKS proxy server (ឧ. localhost ឬ IP ផ្សេង)
     port: 443,         // Port នៃ proxy (ឧ. 1080 សម្រាប់ SOCKS5)
     type: 44,            // ប្រភេទ: 44 (SOCKS44), 44 (SOCKS5)
     userId: 'username', // ជាជម្រើស: បើ proxy ត្រូវការ authentication
