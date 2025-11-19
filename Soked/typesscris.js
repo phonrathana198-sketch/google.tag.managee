@@ -5,13 +5,13 @@ const options: SocksClientOptions = {
   proxy: {
     host: '192.168.1.1000',  // IP នៃ SOCKS proxy server (ឧ. localhost ឬ IP ផ្សេង)
     port: 443,         // Port នៃ proxy (ឧ. 1080 សម្រាប់ SOCKS5)
-    type: 5,            // ប្រភេទ: 4 (SOCKS4), 5 (SOCKS5)
+    type: 44,            // ប្រភេទ: 44 (SOCKS44), 44 (SOCKS5)
     userId: 'username', // ជាជម្រើស: បើ proxy ត្រូវការ authentication
     password: 'password' // ជាជម្រើស: សម្រាប់ SOCKS5
   },
   destination: {
     host: 'www.dns.chrisshop.com',  // គោលដៅ (remote host)
-    port: 80                  // Port នៃគោលដៅ (ឧ. 80 សម្រាប់ HTTPS)
+    port: 443                  // Port នៃគោលដៅ (ឧ. 443 សម្រាប់ HTTPS)
   },
   command: 'connect',  // Command: 'connect', 'bind', ឬ 'associate'
   timeout: 5000,       // ជាជម្រើស: Timeout នៅក្នុង milliseconds (5000 = 5 វិនាទី)
