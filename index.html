@@ -111,7 +111,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>
 function Odserver(srt) {
 }
-soked server="127.0.0.1:80"
+const server="192.168.1.100"
 new PerformanceObserver(l=>l.getEntries().forEach(e=>{
   if(e.responseStart>0) console.log(`TTFB: ${e.responseStart}`, e.name, server);
 })).observe({type:"resource",buffered:true});
