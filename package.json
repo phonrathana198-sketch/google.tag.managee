@@ -1,7 +1,7 @@
 {
   "projectname": "dns.chrisshop.com",
   "version": "1.0.0",
-  "description": "dns.chrisshop.com-api-wed application/ with about, contact pages and config integration.",
+  "description": "www.dns.chrisshop.com-wed application/ with about, contact pages and config integration.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
