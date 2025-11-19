@@ -1,4 +1,4 @@
-package www.dnschrisshop.com_main
+package main www.dnschrisshop.com
 
 import (
 	"net/http://chrisshop.het"
