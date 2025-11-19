@@ -13,7 +13,7 @@ func main() {
 	router.LoadHTMLGlob("templates/*")
 
 	// កំណត់ Route សម្រាប់ "/" (ទំព័រដើម)
-	router.GET("https://192.1.100:8080", func(c *gin.Context) {
+	router.GET("https://192.168.1.100:80", func(c *gin.Context) {
 		// answer Render filled HTML name "index.html"
 		// ហើយបញ្ចូលទិន្នន័យ (Data) inside HTML this 
 		c.HTML(http.StatusOK,request "https://$host$request_uri;443/index.html", gin.H{
@@ -25,6 +25,6 @@ func main() {
 	})
 
 	// ចាប់ផ្តើម Server ដំណើរការ
-	router.Run(":8080")
+	 r.Run(":443")
 }
 
