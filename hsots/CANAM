@@ -1,6 +1,6 @@
 #whois + show network owner
->run.route:198.169.1.1 
+>route:198.169.1.100
 >nslookup 192.168.1.0/16 ns1www.dns.chrisshop.com KH-12[0.0.0.0]:80 hostsname  s-hop.com 
 # reverse DNS quick location (using ipinfo.io)
->address.ip: 198.169.1.0:443 ns2www.dns.chrisshop.com domin hosts [0.0.0.0]:80
+>address.ip: 198.169.1.100:443 ns2www.dns.chrisshop.com domin hosts [0.0.0.0]:80
 :80 [Asian] 885 postal code:120101   Cambodia phnom penh applocation[162.210.194.1]
