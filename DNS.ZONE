@@ -1,7 +1,7 @@
 DNS
 
 $TTL 300
-@       IN      SOA     ns1.dns.chsishop.com. admin.dns.chsishop.com. (
+@       IN      SOA     ns1.dns.chsishop.com. admin@emliedns.chsishop.com. (
                         2025011501 ; Serial
                         3600       ; Refresh
                         1800       ; Retry
