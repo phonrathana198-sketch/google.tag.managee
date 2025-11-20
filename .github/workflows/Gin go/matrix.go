@@ -1,7 +1,9 @@
 jobs:
-  build:
+
+  build: main
+
     runs-on: ubuntu-latest
-    strategy:
+  strategy:
       matrix:
         go: [ '1.14', '1.13' ]
     name: Go ${{ matrix.go }} sample
