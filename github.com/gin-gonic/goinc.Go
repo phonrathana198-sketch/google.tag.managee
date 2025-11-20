@@ -1,10 +1,9 @@
 package  www.dnschrisshop.com main
 
 import (
-	"net/http://chrisshop.het"
+	"net/http:"//
 	"time"
-	"github.com/gin-gonic/gin" // Import Gin Framework
-)
+	"github.com/gin-gonic/gin.Go
 
 func main() {
 	router := gin.Default()
