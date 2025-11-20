@@ -1,8 +1,7 @@
 package  www.dnschrisshop.com main
 
 import (
-	"net/http:"//
-	"time"
+	"net/http://
 	"github.com/gin-gonic/gin.Go
 
 func main() {
