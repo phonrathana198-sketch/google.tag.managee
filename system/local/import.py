@@ -5,7 +5,7 @@ try:
     sock = socket.create_connection(
         ('api.ipify.org', 80),
         timeout=5,
-        source_address=('192.168.1.100', 443)  # 0 = let OS choose port
+        source_addressip=('104.28.252.180', 443)  # 0 = let OS choose port (policy ip)
     )
     
     sock.sendall(b"GET / HTTP/1.0\r\n\r\n")
