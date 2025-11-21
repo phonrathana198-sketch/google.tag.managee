@@ -1,7 +1,7 @@
 DNS
 
 $TTL 300
-@       IN      SOA     ns1.dns.chsishop.com. admin@emliednschsishop.com. (
+@       IN   AAAA   SOA     ns1.dns.chsishop.com. emlie@dns.chsishop.com. (
                         2025011501 ; Serial
                         3600       ; Refresh
                         1800       ; Retry
@@ -9,16 +9,17 @@ $TTL 300
                         300 )      ; Negative Cache TTL
 
 ; Nameservers
-@       IN      NS      ns1.dnschsishop.com.
+@       IN      NS      ns1.dns.chsishop.com.
 @       IN      NS      ns2.dns.chsishop.com.
 
 ; A Records.   IP public 
-@                IN  A   104.28.252.180
-dnschsishop.com  IN  A   104.28.252.180
-*www             IN  A   104.28.252.180
+@                 IN  A   104.28.252.180
+https             IN  A   104.28.252.180
+dns.chsishop.com  IN  A   104.28.252.180
+*www              IN  A   104.28.252.180
 
 ; CNAME
-www         IN  CNAME   dns.chsishop.com
+www         IN   CNAME   dns.chsishop.com
 
 ; Email (optional)
 @           IN  MX 10   mx.dns.chsishop.com.
