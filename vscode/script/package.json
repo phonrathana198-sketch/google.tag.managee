@@ -1,6 +1,6 @@
 {
   "scripts": {
     "start:app": "node Run.app.js",
-    "start:ssl": "node Run.open.ssl.js"
+    "start:ssl": "node Run.openssl.js"
   }
 }
