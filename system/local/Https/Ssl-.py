@@ -1,4 +1,5 @@
 import socket 
+import ssl 
 import openssl
 
 hostname = 'httpsbin.org'
