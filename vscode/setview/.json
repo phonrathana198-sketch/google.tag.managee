@@ -1,8 +1,8 @@
 {
   "status": "success",
-  "as": "AS14061 Digital Ocean, Inc.",
+  "as": "[AS14061] Digital Ocean, Inc.",
   "domain": "www.dns.chrisshop.com",
-  "query": "175.94.31.56",
+  "jquery": "175.94.31.56",
   "city": "Phnom Penh",
   "region": "NJ",
   "regionName": "Phnom Penh",
@@ -38,7 +38,7 @@
     "setView": [11.5564, 104.9282],
     "zoom": 10
   },
-  "details_query": {
+  "details_jquery": {
     "api": "https://api.dns.chrisshop.com/geo/detail",
     "method": "GET",
     "params": {
