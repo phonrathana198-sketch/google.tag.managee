@@ -6,7 +6,7 @@
 	"transform" :	"snakecase",
 }
 
-1Default.json
+Default.(json)
 {
 	"coveredBorderColor" :	"rgba(64,128,128,0.5)",
 	"coveredGutterStyle" :	"blockblue",
