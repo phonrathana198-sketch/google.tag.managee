@@ -34,9 +34,9 @@
     }
   },
   "constmaps": {
-    "map_id": "dns.chrisshop.con_map",
+    "map_id": "www.dns.chrisshop.con_map",
     "setView": [11.5564, 104.9282],
-    "zoom": 13
+    "zoom": 10
   },
   "details_query": {
     "api": "https://api.dns.chrisshop.com/geo/detail",
