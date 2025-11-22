@@ -1,5 +1,5 @@
 import socket 
-import ssl
+import openssl
 
 hostname = 'httpsbin.org'
 context = ssl.create_default_context()
